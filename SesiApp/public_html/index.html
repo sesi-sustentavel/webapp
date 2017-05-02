@@ -3,26 +3,20 @@
     <head>
         <title>Sesi sustentável</title>
         <meta charset="UTF-8">
-        <!-- Importação para o icone na página-->
-        <link rel="icon" href="img/Plant_color.svg" type="image/x-icon" />
-        <!-- Importação para o estilo css-->
-        <link rel='stylesheet' href='http://d33wubrfki0l68.cloudfront.net/css/959fb2e602a949c4fa2af9242fcfa939db808205/estilocssproprio/newcss.css'/>
+        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script>
+            $(function () {
+                $("#header").load("header.html");
+                $("#footer").load("footer.html");
+            });
+        </script> 
     </head>
 
     <body>
 
-        <header>
-            <div class="logo"></div>
-
-            <div>
-                <button>Home</button>
-                <button>Sustentabilidade</button>
-                <button>Tabela Periódica</button>
-                <button>Ligações Carbonicas</button>
-                <button>Nomenclatura</button>
-            </div>
-        </header>
+        <div id="header"> </div>
 
         <!--Tabelinha zika -->
         <div class="PT">
@@ -1267,12 +1261,8 @@
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
         <script type='text/javascript' src='http://d33wubrfki0l68.cloudfront.net/js/0843538bd5949b3c7ee1d9216495046aa0b6d56f/javascript/newjavascript.js'></script>
         <!--fim da tabelinha zika-->
-
-        <footer>
-            Disciplina: química, professor Leandro <br>
-            Sesi sustentável.
-        </footer>
-
+        
+        <div id="footer"></div>
 
     </body>
 </html>
