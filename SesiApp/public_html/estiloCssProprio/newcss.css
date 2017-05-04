@@ -34,7 +34,6 @@ header{
     width:80px;
     height:80px;
     border-radius:100%;
-    background-image:url(/64520a96db0dd4c2b8cc636150630dcf9cff4c32/97385/img/plant.svg);
     background-position:center;
     background-size:55px;
     background-color:#f5f5f5;
@@ -44,10 +43,6 @@ header{
     -webkit-transition:.3s
 }
 
-.logo:hover{
-    background-image:url(/6253964f8acc2f076638e271812d6f82c22afb63/df468/img/plant_color.svg);
-}
-
 header div{
     display:table;
     width:100vw;
@@ -55,11 +50,13 @@ header div{
 }
 
 header button{
-    font-family:Pangram!important;
     height:55px;
     border:none;
     padding:0 20px 0 20px;
     background-color:#0eaf0e;
+    color: whitesmoke;
+    letter-spacing: 0.8px;
+    font-family:Pangram!important;
     -webkit-transition:.3s;
 }
 
@@ -69,12 +66,24 @@ header button:hover{
 }
 
 .texto {
-    bottom: 0px;
-    position: absolute;
+    width: 80%;
+    margin: 110px auto;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    font-family: helvetica;
+    font-size: 15px;
+    color: gray;
 }
 
 footer{
-    
+    left: 0;
+    bottom: 0;
+    position: static;
+    padding: 20px;
+    width: 100vw;
+    text-align: center;
+    color: #FFF;
+    background: #666;
 }
 
 h1,h2,h3{
