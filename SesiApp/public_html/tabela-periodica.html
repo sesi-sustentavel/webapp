@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sesi sustentável</title>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script>
+            $(function () {
+                $("#header").load("header.html");
+                $("#footer").load("footer.html");
+            });
+        </script> 
+    </head>
+
+    <body>
+
+        <div id="header"> </div>
+
+        <!--Tabelinha zika -->
+        <div class="PT">
+            <div class="allel">
+                <div class="row">
+                    <div class="element hyd" id="H">
+                        <ul>
+                            <li class="elec"> 1 </li>
+                            <li class="number"> 1 </li>
+                            <li class="symbol"> H </li>
+                            <li class="name"> Hidrogênio </li>
+                            <li class="weight"> 1,008 </li>
+                        </ul>
+                    </div>
+                    <div class="element alkm" id="alkm">
+                        <ul>
+                            <li class="elec"> 2|1 </li>
+                            <li class="number"> 3 </li>
+                            <li class="symbol"> Li </li>
+                            <li class="name"> Lítio </li>
+                            <li class="weight"> 6,94 </li>
+                        </ul>
+                    </div>
+                    <div class="element alkm" id="alkm">
+                        <ul>
+                            <li class="elec"> 2|8|1 </li>
+                            <li class="number"> 11 </li>
+                            <li class="symbol"> Na </li>
+                            <li class="name"> Sódio </li>
+                            <li class="weight"> 22,9897 </li>
+                        </ul>
+                    </div>
+                    <div class="element alkm" id="alkm">
+                        <ul>
+                            <li class="elec"> 2|8|8|1 </li>
+                            <li class="number"> 19 </li>
+                            <li class="symbol"> K </li>
+                            <li class="name"> Potássio </li>
+                            <li class="weight"> 39,0983 </li>
+                        </ul>
+                    </div>
+                    <div class="element alkm" id="alkm">
+                        <ul>
+                            <li class="elec"> 2|8|18|8|1</li>
+                            <li class="number"> 37 </li>
+                            <li class="symbol"> Rb </li>
+                            <li class="name"> Rubídio </li>
+                            <li class="weight"> 85,4678 </li>
+                        </ul>
+                    </div>
+                    <div class="element alkm" id="alkm">
+                        <ul>
+                            <li class="elec"> 2|8|18|18|8|1 </li>
+                            <li class="number"> 55 </li>
+                            <li class="symbol"> Cs </li>
+                            <li class="name"> Céssio </li>
+                            <li class="weight"> 132,905... </li>
+                        </ul>
+                    </div>
+                    <div class="element alkm" id="alkm">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|18|8|1 </li>
+                            <li class="number"> 87 </li>
+                            <li class="symbol"> Fr </li>
+                            <li class="name"> Frâncio </li>
+                            <li class="weight"> (223) </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element alke" id="alke">
+                        <ul>
+                            <li class="elec"> 2|2 </li>
+                            <li class="number"> 4 </li>
+                            <li class="symbol"> Be </li>
+                            <li class="name"> Berílio </li>
+                            <li class="weight"> 9,012182 </li>
+                        </ul>
+                    </div>
+                    <div class="element alke" id="alke">
+                        <ul>
+                            <li class="elec"> 2|8|2 </li>
+                            <li class="number"> 12 </li>
+                            <li class="symbol"> Mg </li>
+                            <li class="name"> Magnésio </li>
+                            <li class="weight"> 24,305 </li>
+                        </ul>
+                    </div>
+                    <div class="element alke" id="alke">
+                        <ul>
+                            <li class="elec"> 2|8|8|2 </li>
+                            <li class="number"> 20 </li>
+                            <li class="symbol"> Ca </li>
+                            <li class="name"> Cálcio </li>
+                            <li class="weight"> 40,078 </li>
+                        </ul>
+                    </div>
+                    <div class="element alke" id="alke">
+                        <ul>
+                            <li class="elec"> 2|8|18|8|2</li>
+                            <li class="number"> 38 </li>
+                            <li class="symbol"> Sr </li>
+                            <li class="name"> Estrôncio </li>
+                            <li class="weight"> 87,62 </li>
+                        </ul>
+                    </div>
+                    <div class="element alke" id="alke">
+                        <ul>
+                            <li class="elec"> 2|8|18|18|8|2 </li>
+                            <li class="number"> 56 </li>
+                            <li class="symbol"> Ba </li>
+                            <li class="name"> Bário </li>
+                            <li class="weight"> 137,327 </li>
+                        </ul>
+                    </div>
+                    <div class="element alke" id="alke">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|18|8|2 </li>
+                            <li class="number"> 88 </li>
+                            <li class="symbol"> Ra </li>
+                            <li class="name"> Rádio </li>
+                            <li class="weight"> (226) </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|9|2 </li>
+                            <li class="number"> 21 </li>
+                            <li class="symbol"> Sc </li>
+                            <li class="name"> Escândio </li>
+                            <li class="weight"> 44,9559... </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul >
+                            <li class="elec"> 2|8|18|9|2</li>
+                            <li class="number"> 39 </li>
+                            <li class="symbol"> Y </li>
+                            <li class="name"> Itrio </li>
+                            <li class="weight"> 88.90585 </li>
+                        </ul>
+                    </div>
+                    <div class="element Lantha" id="Lantha">
+                        <ul>
+                            <li class="elec">  </li>
+                            <li class="number"> 57-71 </li>
+                            <li class="symbol"> La-Lu </li>
+                            <li class="name">  </li>
+                            <li class="weight">  </li>
+                        </ul>
+                    </div>
+                    <div class="element Acti" id="Acti">
+                        <ul>
+                            <li class="elec"> </li>
+                            <li class="number"> 89-103 </li>
+                            <li class="symbol"> Ac-Lr </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|10|2 </li>
+                            <li class="number"> 22 </li>
+                            <li class="symbol"> Ti </li>
+                            <li class="name"> Titânio </li>
+                            <li class="weight"> 47,867 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|10|2</li>
+                            <li class="number"> 40 </li>
+                            <li class="symbol"> Zr </li>
+                            <li class="name"> Zircônio </li>
+                            <li class="weight"> 91,224 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|10|2 </li>
+                            <li class="number"> 72 </li>
+                            <li class="symbol"> Hf </li>
+                            <li class="name"> Háfnio </li>
+                            <li class="weight"> 178,49 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|32|10|2 </li>
+                            <li class="number"> 104 </li>
+                            <li class="symbol"> Rf </li>
+                            <li class="name"> Rutherfódio </li>
+                            <li class="weight"> (267) </li>
+                        </ul>
+                    </div>
+                    <div class="element " id="empty">
+                    </div>
+
+                    <div class="element Lantha" id="Lantha">
+                        <ul>
+                            <li class="elec"> 2|8|18|18|9|2 </li>
+                            <li class="number"> 57 </li>
+                            <li class="symbol"> La </li>
+                            <li class="name"> Lantânio </li>
+                            <li class="weight"> 138.905.. </li>
+                        </ul>
+                    </div>
+                    <div class="element Acti" id="Acti">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|18|9|2 </li>
+                            <li class="number"> 89 </li>
+                            <li class="symbol"> Ac </li>
+                            <li class="name"> Actínio </li>
+                            <li class="weight"> (227) </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="element " id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|11|2 </li>
+                            <li class="number"> 23 </li>
+                            <li class="symbol"> V </li>
+                            <li class="name"> Vanádio </li>
+                            <li class="weight"> 50,9415 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|12|2</li>
+                            <li class="number"> 41 </li>
+                            <li class="symbol"> Nb </li>
+                            <li class="name"> Nióbio</li>
+                            <li class="weight"> 92,90638 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|11|2 </li>
+                            <li class="number"> 73 </li>
+                            <li class="symbol"> Ta </li>
+                            <li class="name"> Tântalo</li>
+                            <li class="weight"> 180,947...</li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|32|12 </li>
+                            <li class="number"> 105 </li>
+                            <li class="symbol"> Db </li>
+                            <li class="name"> Dúbnio  </li>
+                            <li class="weight"> (268) </li>
+                        </ul>
+                    </div><div class="element " id="empty">
+                    </div>
+
+                    <div class="element Lantha" id="Lantha">
+                        <ul>
+                            <li class="elec"> 2|8|18|19|9|2 </li>
+                            <li class="number"> 58 </li>
+                            <li class="symbol"> Ce </li>
+                            <li class="name"> Cério </li>
+                            <li class="weight"> 140,116 </li>
+                        </ul>
+                    </div>
+                    <div class="element Acti" id="Acti">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|18|10|2 </li>
+                            <li class="number"> 90 </li>
+                            <li class="symbol"> Th </li>
+                            <li class="name"> Tório </li>
+                            <li class="weight"> 232,038... </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|13|2 </li>
+                            <li class="number"> 24 </li>
+                            <li class="symbol"> Cr </li>
+                            <li class="name"> Crômio</li>
+                            <li class="weight"> 51,9961 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|13|2</li>
+                            <li class="number"> 42 </li>
+                            <li class="symbol"> Mo </li>
+                            <li class="name"> Molibdênio </li>
+                            <li class="weight"> 95,96 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|12|2 </li>
+                            <li class="number"> 74 </li>
+                            <li class="symbol"> W </li>
+                            <li class="name"> Tungstênio </li>
+                            <li class="weight"> 183,84 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|32|12|2 </li>
+                            <li class="number"> 106 </li>
+                            <li class="symbol"> Sg </li>
+                            <li class="name"> Seabórgio </li>
+                            <li class="weight"> (271) </li>
+                        </ul>
+                    </div>
+                    <div class="element " id="empty">
+                    </div>
+
+                    <div class="element Lantha" id="Lantha">
+                        <ul>
+                            <li class="elec"> 2|8|18|21|8|2 </li>
+                            <li class="number"> 59 </li>
+                            <li class="symbol"> Pr </li>
+                            <li class="name"> Praseodímio </li>
+                            <li class="weight"> 140,90765 </li>
+                        </ul>
+                    </div>
+                    <div class="element Acti" id="Acti">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|20|9|2 </li>
+                            <li class="number"> 91 </li>
+                            <li class="symbol"> Pa </li>
+                            <li class="name"> Protactínio </li>
+                            <li class="weight"> 231,03588 </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|13|2 </li>
+                            <li class="number"> 25 </li>
+                            <li class="symbol"> Mn </li>
+                            <li class="name"> Manganês </li>
+                            <li class="weight"> 54,938045 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|14|2</li>
+                            <li class="number"> 43 </li>
+                            <li class="symbol"> Tc </li>
+                            <li class="name"> Tecnécio </li>
+                            <li class="weight"> (98) </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|13|2 </li>
+                            <li class="number"> 75 </li>
+                            <li class="symbol"> Re </li>
+                            <li class="name"> Rênio </li>
+                            <li class="weight"> 186.207 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|32|13|2 </li>
+                            <li class="number"> 107 </li>
+                            <li class="symbol"> Bh </li>
+                            <li class="name"> Bóhrio </li>
+                            <li class="weight"> (272) </li>
+                        </ul>
+                    </div>
+                    <div class="element " id="empty">
+                    </div>
+
+                    <div class="element Lantha" id="Lantha">
+                        <ul>
+                            <li class="elec"> 2|8|18|22|8|2 </li>
+                            <li class="number"> 60 </li>
+                            <li class="symbol"> Nd </li>
+                            <li class="name"> Neodímio </li>
+                            <li class="weight"> 144,242 </li>
+                        </ul>
+                    </div>
+                    <div class="element Acti" id="Acti">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|21|9|2 </li>
+                            <li class="number"> 92 </li>
+                            <li class="symbol"> U </li>
+                            <li class="name"> Urânio </li>
+                            <li class="weight"> 238.028... </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|14|2 </li>
+                            <li class="number"> 26 </li>
+                            <li class="symbol"> Fe </li>
+                            <li class="name"> Ferro </li>
+                            <li class="weight"> 55,845 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|15|2</li>
+                            <li class="number"> 44 </li>
+                            <li class="symbol"> Ru </li>
+                            <li class="name"> Rutênio</li>
+                            <li class="weight"> 101,07 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|14|2 </li>
+                            <li class="number"> 76 </li>
+                            <li class="symbol"> Os </li>
+                            <li class="name"> Osmio </li>
+                            <li class="weight"> 190,23 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|32|14|2 </li>
+                            <li class="number"> 109 </li>
+                            <li class="symbol"> Hs </li>
+                            <li class="name"> Hássio </li>
+                            <li class="weight"> (270) </li>
+                        </ul>
+                    </div>
+                    <div class="element " id="empty">
+                    </div>
+
+                    <div class="element Lantha" id="Lantha">
+                        <ul>
+                            <li class="elec"> 2|8|18|23|8|2 </li>
+                            <li class="number"> 61 </li>
+                            <li class="symbol"> Pm </li>
+                            <li class="name"> Promécio </li>
+                            <li class="weight"> (145) </li>
+                        </ul>
+                    </div>
+                    <div class="element Acti" id="Acti">
+                        <ul>
+                            <li class="elec"> 2|8|18|22|9|2 </li>
+                            <li class="number"> 93 </li>
+                            <li class="symbol"> Np </li>
+                            <li class="name"> Neptúnio </li>
+                            <li class="weight"> (237) </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|15|2 </li>
+                            <li class="number"> 27 </li>
+                            <li class="symbol"> Co </li>
+                            <li class="name"> Cobalto </li>
+                            <li class="weight"> 58,933195 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|16|2</li>
+                            <li class="number"> 45 </li>
+                            <li class="symbol"> Rh </li>
+                            <li class="name"> Ródio </li>
+                            <li class="weight"> 102,90550 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|15|2 </li>
+                            <li class="number"> 77 </li>
+                            <li class="symbol"> Ir </li>
+                            <li class="name"> Irídio </li>
+                            <li class="weight"> 192.217 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|32|15|2 </li>
+                            <li class="number"> 109 </li>
+                            <li class="symbol"> Mt </li>
+                            <li class="name"> Meitnério </li>
+                            <li class="weight"> (268) </li>
+                        </ul>
+                    </div>
+                    <div class="element " id="empty">
+                    </div>
+
+                    <div class="element Lantha" id="Lantha">
+                        <ul>
+                            <li class="elec"> 2|8|18|24|8|2 </li>
+                            <li class="number"> 62 </li>
+                            <li class="symbol"> Sm </li>
+                            <li class="name"> Samário </li>
+                            <li class="weight"> 150,36 </li>
+                        </ul>
+                    </div>
+                    <div class="element Acti" id="Acti">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|24|8|2 </li>
+                            <li class="number"> 94 </li>
+                            <li class="symbol"> Pu </li>
+                            <li class="name"> Plutônio </li>
+                            <li class="weight"> (244) </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|16|2 </li>
+                            <li class="number"> 28 </li>
+                            <li class="symbol"> Ni </li>
+                            <li class="name"> Níquel </li>
+                            <li class="weight"> 58,6934 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|18|0</li>
+                            <li class="number"> 46 </li>
+                            <li class="symbol"> Pd </li>
+                            <li class="name"> Paládio </li>
+                            <li class="weight"> 106.42 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|17|1 </li>
+                            <li class="number"> 78 </li>
+                            <li class="symbol"> Pt </li>
+                            <li class="name"> Platina </li>
+                            <li class="weight"> 195,084 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|32|17|1 </li>
+                            <li class="number"> 110 </li>
+                            <li class="symbol"> Ds </li>
+                            <li class="name"> Darmstácio </li>
+                            <li class="weight"> (271) </li>
+                        </ul>
+                    </div>
+                    <div class="element " id="empty">
+                    </div>
+
+                    <div class="element Lantha" id="Lantha">
+                        <ul>
+                            <li class="elec"> 2|8|18|25|8|2 </li>
+                            <li class="number"> 63 </li>
+                            <li class="symbol"> Eu </li>
+                            <li class="name"> Európio </li>
+                            <li class="weight"> 151,964 </li>
+                        </ul>
+                    </div>
+                    <div class="element Acti" id="Acti">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|25|8|2 </li>
+                            <li class="number"> 95 </li>
+                            <li class="symbol"> Am </li>
+                            <li class="name"> Amerício </li>
+                            <li class="weight"> (243) </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|1 </li>
+                            <li class="number"> 29 </li>
+                            <li class="symbol"> Cu </li>
+                            <li class="name"> Cobre </li>
+                            <li class="weight"> 63,546 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|18|1</li>
+                            <li class="number"> 47 </li>
+                            <li class="symbol"> Ag </li>
+                            <li class="name"> Prata </li>
+                            <li class="weight"> 107,8682 </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|18|1 </li>
+                            <li class="number"> 79 </li>
+                            <li class="symbol"> Au </li>
+                            <li class="name"> Ouro </li>
+                            <li class="weight"> 196,966.. </li>
+                        </ul>
+                    </div>
+                    <div class="element transmet" id="transmet">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|32|18|1 </li>
+                            <li class="number"> 111 </li>
+                            <li class="symbol"> Rg </li>
+                            <li class="name"> Roentgênio </li>
+                            <li class="weight"> (272) </li>
+                        </ul>
+                    </div>
+                    <div class="element " id="empty">
+                    </div>
+
+                    <div class="element Lantha" id="Lantha">
+                        <ul>
+                            <li class="elec"> 2|8|18|25|9|2 </li>
+                            <li class="number"> 64 </li>
+                            <li class="symbol"> Gd </li>
+                            <li class="name"> Godolínio </li>
+                            <li class="weight"> 157,25 </li>
+                        </ul>
+                    </div>
+                    <div class="element Acti" id="Acti">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|25|9|2 </li>
+                            <li class="number"> 96 </li>
+                            <li class="symbol"> Cm </li>
+                            <li class="name"> Cúrio </li>
+                            <li class="weight"> (247) </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|2 </li>
+                            <li class="number"> 30 </li>
+                            <li class="symbol"> Zn </li>
+                            <li class="name"> Zinco </li>
+                            <li class="weight"> 65,38 </li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|18|2</li>
+                            <li class="number"> 48 </li>
+                            <li class="symbol"> Cd </li>
+                            <li class="name"> Cádmio </li>
+                            <li class="weight"> 112,411 </li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|18|2 </li>
+                            <li class="number"> 80 </li>
+                            <li class="symbol"> Hg </li>
+                            <li class="name"> Mercúrio </li>
+                            <li class="weight"> 200,59 </li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|32|18|2 </li>
+                            <li class="number"> 112 </li>
+                            <li class="symbol"> Cn </li>
+                            <li class="name"> Copernício </li>
+                            <li class="weight"> (285) </li>
+                        </ul>
+                    </div>
+                    <div class="element " id="empty">
+                    </div>
+
+                    <div class="element Lantha" id="Lantha">
+                        <ul>
+                            <li class="elec"> 2|8|18|27|8|2 </li>
+                            <li class="number"> 65 </li>
+                            <li class="symbol"> Tb </li>
+                            <li class="name"> Térbio </li>
+                            <li class="weight"> 158,925.. </li>
+                        </ul>
+                    </div>
+                    <div class="element Acti" id="Acti">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|27|8|2 </li>
+                            <li class="number"> 97 </li>
+                            <li class="symbol"> Bk </li>
+                            <li class="name"> Berquélio </li>
+                            <li class="weight"> (247) </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element othernonm" id="othernonm">
+                        <ul>
+                            <li class="elec"> 2|3 </li>
+                            <li class="number"> 5 </li>
+                            <li class="symbol"> B </li>
+                            <li class="name"> Boro </li>
+                            <li class="weight"> 10,81 </li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|3 </li>
+                            <li class="number"> 13 </li>
+                            <li class="symbol"> Al </li>
+                            <li class="name"> Alumínio </li>
+                            <li class="weight"> 29.9815... </li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|3 </li>
+                            <li class="number"> 31 </li>
+                            <li class="symbol"> Ga </li>
+                            <li class="name"> Gálio </li>
+                            <li class="weight"> 69,723 </li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|18|3</li>
+                            <li class="number"> 49 </li>
+                            <li class="symbol"> In </li>
+                            <li class="name"> Indio </li>
+                            <li class="weight"> 114,818 </li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|18|3 </li>
+                            <li class="number"> 81 </li>
+                            <li class="symbol"> Ti </li>
+                            <li class="name"> Tálio </li>
+                            <li class="weight"> 204,38   </li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|32|18|3 </li>
+                            <li class="number"> 113 </li>
+                            <li class="symbol"> Nh </li>
+                            <li class="name"> Nihonium </li>
+                            <li class="weight"> (284) </li>
+                        </ul>
+                    </div>
+                    <div class="element " id="empty">
+                    </div>
+
+                    <div class="element Lantha" id="Lantha">
+                        <ul>
+                            <li class="elec"> 2|8|18|28|8|2 </li>
+                            <li class="number"> 66 </li>
+                            <li class="symbol"> Dy </li>
+                            <li class="name"> Disprósio </li>
+                            <li class="weight"> 162,500 </li>
+                        </ul>
+                    </div>
+                    <div class="element Acti" id="Acti">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|28|8|2 </li>
+                            <li class="number"> 98 </li>
+                            <li class="symbol"> Cf </li>
+                            <li class="name"> Califórnio </li>
+                            <li class="weight"> (251) </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element othernonm" id="othernonm">
+                        <ul>
+                            <li class="elec"> 2|4 </li>
+                            <li class="number"> 6 </li>
+                            <li class="symbol"> C </li>
+                            <li class="name"> Carbono </li>
+                            <li class="weight"> 12.011 </li>
+                        </ul>
+                    </div>
+                    <div class="element othernonm" id="othernonm">
+                        <ul>
+                            <li class="elec"> 2|8|4 </li>
+                            <li class="number"> 14 </li>
+                            <li class="symbol"> Si </li>
+                            <li class="name"> Silício  </li>
+                            <li class="weight"> 28.085 </li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|4 </li>
+                            <li class="number"> 32 </li>
+                            <li class="symbol"> Ge </li>
+                            <li class="name"> Germânio </li>
+                            <li class="weight"> 72,63</li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|18|4</li>
+                            <li class="number"> 50 </li>
+                            <li class="symbol"> Sn </li>
+                            <li class="name"> Estanho </li>
+                            <li class="weight"> 118,710 </li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|18|4 </li>
+                            <li class="number"> 82 </li>
+                            <li class="symbol"> Pb </li>
+                            <li class="name"> Chumbo </li>
+                            <li class="weight"> 207,2 </li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|32|18|4 </li>
+                            <li class="number"> 114 </li>
+                            <li class="symbol">  Fl </li>
+                            <li class="name"> Fleróvio </li>
+                            <li class="weight"> (289) </li>
+                        </ul>
+                    </div>
+                    <div class="element " id="empty">
+                    </div>
+
+                    <div class="element Lantha" id="Lantha">
+                        <ul>
+                            <li class="elec"> 2|8|18|29|8|2 </li>
+                            <li class="number"> 67 </li>
+                            <li class="symbol"> Ho </li>
+                            <li class="name"> Hólmio </li>
+                            <li class="weight"> 164,930.. </li>
+                        </ul>
+                    </div>
+                    <div class="element Acti" id="Acti">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|29|8|2 </li>
+                            <li class="number"> 99 </li>
+                            <li class="symbol"> Es </li>
+                            <li class="name"> Einstênio </li>
+                            <li class="weight"> (252) </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element othernonm" id="othernonm">
+                        <ul>
+                            <li class="elec"> 2|5 </li>
+                            <li class="number"> 7 </li>
+                            <li class="symbol"> N </li>
+                            <li class="name"> Nitrogênio  </li>
+                            <li class="weight"> 14,0067 </li>
+                        </ul>
+                    </div>
+                    <div class="element othernonm" id="othernonm">
+                        <ul>
+                            <li class="elec"> 2|8|5 </li>
+                            <li class="number"> 15 </li>
+                            <li class="symbol"> P </li>
+                            <li class="name"> Fósforo </li>
+                            <li class="weight"> 30,973.. </li>
+                        </ul>
+                    </div>
+                    <div class="element othernonm" id="othernonm">
+                        <ul>
+                            <li class="elec"> 2|8|18|5 </li>
+                            <li class="number"> 33 </li>
+                            <li class="symbol"> As </li>
+                            <li class="name"> Arsênio </li>
+                            <li class="weight"> 74,92160 </li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|18|5</li>
+                            <li class="number"> 51 </li>
+                            <li class="symbol"> Sb </li>
+                            <li class="name"> Antimônio </li>
+                            <li class="weight"> 121,760 </li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|18|5 </li>
+                            <li class="number"> 83 </li>
+                            <li class="symbol"> Bi </li>
+                            <li class="name"> Bismuto </li>
+                            <li class="weight"> 208,980.. </li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|32|18|5 </li>
+                            <li class="number"> 115 </li>
+                            <li class="symbol"> Mc </li>
+                            <li class="name"> Moscóvio </li>
+                            <li class="weight"> (288) </li>
+                        </ul>
+                    </div>
+                    <div class="element " id="empty">
+                    </div>
+
+                    <div class="element Lantha" id="Lantha">
+                        <ul>
+                            <li class="elec"> 2|8|18|30|8|2 </li>
+                            <li class="number"> 68 </li>
+                            <li class="symbol"> Er </li>
+                            <li class="name"> Erbio </li>
+                            <li class="weight"> 167,259 </li>
+                        </ul>
+                    </div>
+                    <div class="element Acti" id="Acti">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|30|8|2 </li>
+                            <li class="number"> 100 </li>
+                            <li class="symbol"> Fm </li>
+                            <li class="name"> Férmio </li>
+                            <li class="weight"> (257) </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element othernonm" id="othernonm">
+                        <ul>
+                            <li class="elec"> 2|6 </li>
+                            <li class="number"> 8 </li>
+                            <li class="symbol"> O </li>
+                            <li class="name"> Oxigénio </li>
+                            <li class="weight"> 15,999 </li>
+                        </ul>
+                    </div>
+                    <div class="element othernonm" id="othernonm">
+                        <ul>
+                            <li class="elec"> 2|8|6 </li>
+                            <li class="number"> 16 </li>
+                            <li class="symbol"> S </li>
+                            <li class="name"> Enxofre  </li>
+                            <li class="weight"> 32,06 </li>
+                        </ul>
+                    </div>
+                    <div class="element othernonm" id="othernonm">
+                        <ul>
+                            <li class="elec"> 2|8|18|6 </li>
+                            <li class="number"> 34 </li>
+                            <li class="symbol"> Se </li>
+                            <li class="name"> Selênio </li>
+                            <li class="weight"> 78,96 </li>
+                        </ul>
+                    </div>
+                    <div class="element othernonm" id="othernonm">
+                        <ul>
+                            <li class="elec"> 2|8|18|18|6</li>
+                            <li class="number"> 52 </li>
+                            <li class="symbol"> Te </li>
+                            <li class="name"> Telúrio </li>
+                            <li class="weight"> 127,60 </li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|18|6 </li>
+                            <li class="number"> 84 </li>
+                            <li class="symbol"> Po </li>
+                            <li class="name"> Polônio </li>
+                            <li class="weight"> (209) </li>
+                        </ul>
+                    </div>
+                    <div class="element poorm" id="poorm">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|32|18|6 </li>
+                            <li class="number"> 116 </li>
+                            <li class="symbol"> Lv </li>
+                            <li class="name"> Livermório </li>
+                            <li class="weight"> (293) </li>
+                        </ul>
+                    </div>
+                    <div class="element " id="empty">
+                    </div>
+
+                    <div class="element Lantha" id="Lantha">
+                        <ul>
+                            <li class="elec"> 2|8|18|31|8|2 </li>
+                            <li class="number"> 69 </li>
+                            <li class="symbol"> Tm </li>
+                            <li class="name"> Túlio </li>
+                            <li class="weight"> 168,934.. </li>
+                        </ul>
+                    </div>
+                    <div class="element Acti" id="Acti">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|31|8|2 </li>
+                            <li class="number"> 101 </li>
+                            <li class="symbol"> Md </li>
+                            <li class="name"> Mendelévio </li>
+                            <li class="weight"> (258) </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="element" id="empty">
+                    </div>
+                    <div class="element othernonm" id="othernonm">
+                        <ul>
+                            <li class="elec"> 2|7 </li>
+                            <li class="number"> 9 </li>
+                            <li class="symbol"> F </li>
+                            <li class="name"> Flúor </li>
+                            <li class="weight"> 18.998... </li>
+                        </ul>
+                    </div>
+                    <div class="element othernonm" id="othernonm">
+                        <ul>
+                            <li class="elec"> 2|8|7 </li>
+                            <li class="number"> 17 </li>
+                            <li class="symbol"> Cl </li>
+                            <li class="name"> Cloro </li>
+                            <li class="weight"> 35,45 </li>
+                        </ul>
+                    </div>
+                    <div class="element othernonm" id="othernonm">
+                        <ul>
+                            <li class="elec"> 2|8|18|7 </li>
+                            <li class="number"> 35 </li>
+                            <li class="symbol"> Br </li>
+                            <li class="name"> Bromo </li>
+                            <li class="weight"> 79,904 </li>
+                        </ul>
+                    </div>
+                    <div class="element othernonm" id="othernonm">
+                        <ul>
+                            <li class="elec"> 2|8|18|18|7</li>
+                            <li class="number"> 53 </li>
+                            <li class="symbol"> I </li>
+                            <li class="name"> Iodo </li>
+                            <li class="weight"> 126,904.. </li>
+                        </ul>
+                    </div>
+                    <div class="element othernonm" id="othernonm">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|18|7 </li>
+                            <li class="number"> 85 </li>
+                            <li class="symbol"> At </li>
+                            <li class="name"> Astato </li>
+                            <li class="weight"> (210) </li>
+                        </ul>
+                    </div>
+                    <div class="element rest" id="rest">
+                        <ul>
+                            <li class="elec"></li>
+                            <li class="number"> 117 </li>
+                            <li class="symbol"> Ts</li>
+                            <li class="name"> Tennessine </li>
+                            <li class="weight"> (294) </li>
+                        </ul>
+                    </div>
+                    <div class="element " id="empty">
+                    </div>
+
+                    <div class="element Lantha" id="Lantha">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|8|2 </li>
+                            <li class="number"> 70 </li>
+                            <li class="symbol"> Yb </li>
+                            <li class="name"> Itérbio </li>
+                            <li class="weight"> 173,054 </li>
+                        </ul>
+                    </div>
+                    <div class="element Acti" id="Acti">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|32|8|2 </li>
+                            <li class="number"> 102 </li>
+                            <li class="symbol"> No </li>
+                            <li class="name"> Nobélio    </li>
+                            <li class="weight"> (259) </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="element noblegas" id="noblegas">
+                        <ul>
+                            <li class="elec"> 2 </li>
+                            <li class="number"> 2 </li>
+                            <li class="symbol"> He </li>
+                            <li class="name"> Hélio </li>
+                            <li class="weight"> 4,002602 </li>
+                        </ul>
+                    </div>
+                    <div class="element noblegas" id="noblegas">
+                        <ul>
+                            <li class="elec"> 2|8 </li>
+                            <li class="number"> 10 </li>
+                            <li class="symbol"> Ne </li>
+                            <li class="name"> Néon </li>
+                            <li class="weight"> 20,1797 </li>
+                        </ul>
+                    </div>
+                    <div class="element noblegas" id="noblegas">
+                        <ul>
+                            <li class="elec"> 2|8|8 </li>
+                            <li class="number"> 18 </li>
+                            <li class="symbol"> Ar </li>
+                            <li class="name"> Argon </li>
+                            <li class="weight"> 39,948 </li>
+                        </ul>
+                    </div>
+                    <div class="element noblegas" id="noblegas">
+                        <ul>
+                            <li class="elec"> 2|8|18|8 </li>
+                            <li class="number"> 36 </li>
+                            <li class="symbol"> Kr </li>
+                            <li class="name"> Crípton </li>
+                            <li class="weight"> 83,798 </li>
+                        </ul>
+                    </div>
+                    <div class="element noblegas" id="noblegas">
+                        <ul>
+                            <li class="elec"> 2|8|18|18|8</li>
+                            <li class="number"> 54 </li>
+                            <li class="symbol"> Xe </li>
+                            <li class="name"> Xenônio </li>
+                            <li class="weight"> 131,293 </li>
+                        </ul>
+                    </div>
+                    <div class="element noblegas" id="noblegas">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|18|8 </li>
+                            <li class="number"> 86 </li>
+                            <li class="symbol"> Rn </li>
+                            <li class="name"> Rádon </li>
+                            <li class="weight"> (222) </li>
+                        </ul>
+                    </div>
+                    <div class="element noblegas" id="noblegas">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|32|18|8 </li>
+                            <li class="number"> 118 </li>
+                            <li class="symbol"> Og </li>
+                            <li class="name"> Oganesson  </li>
+                            <li class="weight"> (294) </li>
+                        </ul>
+                    </div>
+                    <div class="element " id="empty">
+                    </div>
+
+                    <div class="element Lantha" id="Lantha">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|9|2 </li>
+                            <li class="number"> 71 </li>
+                            <li class="symbol"> Lu </li>
+                            <li class="name"> Lutécio </li>
+                            <li class="weight"> 174,9668 </li>
+                        </ul>
+                    </div>
+                    <div class="element Acti" id="Acti">
+                        <ul>
+                            <li class="elec"> 2|8|18|32|32|9|2 </li>
+                            <li class="number"> 103 </li>
+                            <li class="symbol"> Lr </li>
+                            <li class="name"> Laurênio </li>
+                            <li class="weight"> (262) </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+        <script type='text/javascript' src='http://d33wubrfki0l68.cloudfront.net/js/0843538bd5949b3c7ee1d9216495046aa0b6d56f/javascript/newjavascript.js'></script>
+        <!--fim da tabelinha zika-->
+
+        <div id="footer"></div>
+
+    </body>
+</html>
